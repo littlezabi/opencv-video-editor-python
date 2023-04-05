@@ -1,6 +1,6 @@
 import cv2 as cv
 
-vid = cv.VideoCapture('./imran1.mp4')
+vid = cv.VideoCapture('./imran1.mp4') # just pass your video path here
 vid.set(3, 640)
 vid.set(4, 480)
 cv.namedWindow('Video Edit', cv.WINDOW_NORMAL)
